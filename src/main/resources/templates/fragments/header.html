@@ -17,6 +17,7 @@
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li th:class="${activePage == 'home'}? 'active' : ''"><a href="#" th:href="@{/}">Home</a></li>
+                        <li th:class="${activePage} == 'users'? 'active' : ''"><a href="#" th:href="@{/users}"><i class="fa fa-users"></i>Users</a></li>
                         <li th:class="${activePage} == 'users'? 'active' : ''"><a href="#" th:href="@{/users}">Users</a></li>
                     </ul>
                 </div>
